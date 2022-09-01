@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import './secciones/main-index';
+@import './secciones/header';
+
+
+footer {
+    form {
+        input{
+            &:focus {
+                background-color: rgba(255, 0, 0, 0.644);
+            }
+        }
+    }
+}
